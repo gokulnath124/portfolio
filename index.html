@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Padding and Margin</title>
+  <style>
+  div.container{
+    height:500px;
+    width:500px;
+    background-color: red;
+    border:solid green 3px;
+    border-radius: 50px;
+    height: 1000px;
+
+}
+.box{
+    height:100px;
+    width:100px;
+    background-color: rgb(121, 69, 69);
+    border: solid white 1px;
+    border-radius: 50px;
+    margin: 20px;
+    position: absolute;
+
+}
+.a1{
+    position: relative;
+    margin: top 100px;
+    padding-left: 50px;
+    text-align: center;
+    top: 400px;
+    
+}
+.a2{
+    position:fixed;
+    top:0;
+    left: 0;
+}
+.a3{
+    position:fixed;
+    top:45%;
+    right:0;
+}
+.posi-sticky{
+     width: 100px;
+     height: 50px;
+     position: sticky;
+     top: 0;
+}
+
+</style>
+</head>
+<body>
+    <h1>gokulnath d</h1>
+    <div class="container">
+        <div class="box a1"></div>
+        <div class="box  a2"></div>
+        <div class="box  a3"></div>
+        <div class="posi-sticky"></div>
+
+    </div>    
+    </div>
+</body>
+</html>
